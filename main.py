@@ -34,6 +34,7 @@ def bt1_cifrar():
 
     lb1['text'] = '-'.join(cifra).upper()
 
+#Onde é mostrado a cifra informada, o programa não decifra...
 def bt2_decifrar():
     cifra = str(et1.get())
     lb1['text'] = '-'.join(cifra)
